@@ -1,3 +1,17 @@
+
+#KQL, Keyword Query Language.
+
+#Overview
+
+Semantic web has potential to serve both type of information need ,data retrieval and document retrieval  whereas traditional web setting was limited to document retrieval.This scenario calls for Keyword based schema agnostic data retrieval system which requires effective semantic query construction from keyword query.In this code we present SWIS, a Semantic Web Index Store designed to provide scalable  Keyword to Entity discovery service over dataset as large as entire web of data.Our system support full text Mapping,semistructured queries and Top-K mapping results  while exhibiting a concise and distributed index of semantically annotated resources over the web. 
+
+#Technology Used
+Java,
+RDF,
+Solr
+Lucene
+
+
 # SIREn: Open-Source Semi-Structured Information Retrieval Engine
 
 ## Overview
@@ -20,58 +34,3 @@ For its features, SIREn can be seen as being halfway between Solr (of which
 it offers all the search features) and MongoDB (given it can index arbitrary
 JSON documents).
 
-## Description
-
-The SIREn project is composed of six modules:
-
-* **siren-parent**: This module provides the parent pom that defines
-configuration shared across all the other modules.
-
-* **siren-core**: This module provides the core functionality of SIREn such
-as the low-level indexing and search APIs.
-
-* **siren-qparser**: This module provides a number of query parsers to easily
-create complex queries through rich query languages.
-
-* **siren-solr**: This module provides plugins for Solr to integrate the core
-functionality and the query languages of SIREn into the Solr API.
-
-* **siren-demo**: This module provides a demonstration of the functionality of
-SIREn.
-
-## Reference
-
-If you are using SIREn for your scientific work, please cite the following article
-as follow:
-
-> Renaud Delbru, Stephane Campinas, Giovanni Tummarello, **Searching web data: An
-> entity retrieval and high-performance indexing model**, *In Web Semantics:
-> Science, Services and Agents on the World Wide Web*, ISSN 1570-8268,
-> [10.1016/j.websem.2011.04.004](http://www.sciencedirect.com/science/article/pii/S1570826811000230).
-
-## Resources
-
-* The SIREn [Java Documentation](http://rdelbru.github.io/SIREn/site/1.0/apidocs/index.html) where you can find
-a technical description of the SIREn architecture and API.
-* The SIREn [web site](http://rdelbru.github.io/SIREn/) where you can download SIREn.
-* A public talk at the Lucene Revolution 2013 conference: [High Performance JSON Search and Relational Faceted
-Browsing with Lucene](http://www.youtube.com/watch?v=-KiZsx8GYtc).
-* A [scientific publication](http://renaud.delbru.fr/doc/pub/jws2010-erm.pdf) with details about the data model
-and algorithms behind SIREn.
-
-
-## Community
-
-Please join the SIREn-User mailing list by subscribing at [SIREn-User](https://groups.google.com/d/forum/siren-user).
-
-## Acknowledgements
-
-The SIREn project is based upon works supported by:
-
-* the European FP7 Okkam (GA 215032) and LOD2 (257943) projects,
-* the SFI funded project Lion2 under Grant No. SFI/08/CE/I1380,
-* the Irish Research Council for Science, Engineering and Technology.
-
-- - -
-
-Copyright 2014, National University of Ireland, Galway
